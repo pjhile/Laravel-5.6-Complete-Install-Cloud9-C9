@@ -26,3 +26,14 @@ Copy and paste one line at the time on the cloud9 workspace console:
 Total installation will take about 5 minutes which is normal. It will also create auth scaffolding and make the first migration.
 
 
+# `Optional steps`
+
+## Configure phpmyadmin
+
+`sudo dpkg-reconfigure phpmyadmin`
+
+## Set DB user password
+
+`mysql --user=root`
+
+`SET PASSWORD FOR 'root'@'localhost' = 'abc123';`
